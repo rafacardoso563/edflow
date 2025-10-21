@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Edflow - Cadastro de Professores</title>
+  <!-- Reaproveitamos o mesmo CSS usado antes -->
+  <link rel="stylesheet" href="cadastroProfessor.css" />
+</head>
+<body>
+  <header>
+    <img id="logo" src="/assets/2-removebg-preview.png" alt="">
+    <h2>home</h2>
+    <h2>turmas</h2>
+    <h2>alunos</h2>
+    <h2>professores</h2>
+  </header>
+
+  <section id="container">
+    <form id="formProfessor">
+      <section id="container2">
+        <h3>Cadastro de Professor</h3>
+
+        <input type="number" id="id_usuario" placeholder="ID do usuário" required>
+
+        <button type="submit" id="botaoCadastrar">Cadastrar</button>
+      </section>
+    </form>
+
+    <section class="div-flex">
+      <h2 style="color: #f6958b;">Informações</h2>
+      <div id="div1">
+        <p>ID Professor</p>
+        <p>ID Usuário</p>
+      </div>
+      <div id="listaProfessores"></div>
+    </section>
+  </section>
+
+  <footer>
+    <button>Sair</button>
+  </footer>
+
+  <script src="back/cadastroProfessores.js"></script>
+</body>
+</html>

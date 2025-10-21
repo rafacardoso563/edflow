@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Edflow - Cadastro de Alunos</title>
+  <link rel="stylesheet" href="cadastroBoletim.css" />
+</head>
+<body>
+  <header>
+    <img id="logo" src="/assets/2-removebg-preview.png" alt="">
+    <h2>home</h2>
+    <h2>turmas</h2>
+    <h2>alunos</h2>
+    <h2>professores</h2>
+  </header>
+
+  <section id="container">
+    <form id="formAluno">
+      <section id="container2">
+        <h3>Cadastro de Aluno</h3>
+
+        <input type="number" id="id_usuario" placeholder="ID do usuário" required>
+        <input type="date"   id="data_nasc" placeholder="Data de nascimento" required>
+        <input type="text"   id="responsavel" placeholder="Nome do responsável" required>
+
+        <button type="submit" id="botaoCadastrar" >Cadastrar</button>
+      </section>
+    </form>
+
+    <section class="div-flex">
+      <h2 style="color: #f6958b;">Informações</h2>
+      <div id="div1">
+        <p>ID</p>
+        <p>ID Usuário</p>
+        <p>Data Nasc.</p>
+        <p>Responsável</p>
+      </div>
+      <div id="listaAlunos"></div>
+    </section>
+  </section>
+
+  <footer>
+    <button>Sair</button>
+  </footer>
+
+  <script src="back/cadastroAlunos.js"></script>
+</body>
+</html>

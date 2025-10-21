@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edflow</title>
+    <link rel="stylesheet" href="cadastroTurma.css">
+</head>
+<body onload="listarTurmas()">
+    <header>
+        <img id="logo" src="/assets/2-removebg-preview.png" alt="">
+        <h2>home</h2>
+        <h2>turmas</h2>
+        <h2>alunos</h2>
+        <h2>professores</h2>
+    </header>
+
+    <section id="container">
+      <form id="formTurma">
+        <section id="container2">
+            <h3>Cadastro</h3>
+            <input id="turmanome" type="text" placeholder="Nome da turma" required>
+            <input id="anoletivo" type="number" placeholder="Ano letivo" required>
+            <button type="button" id="botaoCadastrar" onclick="cadastroTurma()">Cadastrar</button>
+        </section>
+      </form>
+
+      <section class="div-flex">
+        <h2 style="color: #f6958b;">Informações</h2>
+
+        <!-- Cabeçalho com seu estilo -->
+        <div id="div1">
+            <p>ID</p>
+            <p>Nome</p>
+            <p>Ano letivo</p>
+        </div>
+
+        <!-- Aqui entram as linhas via JS -->
+        <div id="tabelaTurmas"></div>
+      </section>
+    </section>
+
+    <footer>
+        <button>Sair</button>
+    </footer>
+
+<script src="back/cadastroTurma.js"></script>
+</body>
+</html>

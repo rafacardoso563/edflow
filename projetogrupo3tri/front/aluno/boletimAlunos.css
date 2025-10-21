@@ -1,0 +1,89 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#logo{
+    width: 15vw;
+}
+h2{
+    color: #99ac5d;
+}
+h2:hover{
+    transition: 0,5s;
+    color: #b8ce72;
+}
+h1{
+    color: #f6958b;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+button{
+    text-decoration: none;
+    background-color: #99ac5d;
+    color: #f6958b;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: x-large;
+}
+button:hover{
+    transition: 0,5s;
+    background-color: #c2dda9;
+}
+footer{
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+    
+}
+#container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    width: 20vw;
+    background-color: #c2dda9;
+    color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+}
+input{
+    text-decoration: none;
+    border: 0px;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 5px;
+}
+#div1{
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid #ffbd3e;
+    color: #f6958b;
+}
+p{
+     border: 2px solid #ffbd3e;
+    padding: 10px;
+    
+}
+
+.div-flex{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+.flecha{
+    width: 1vw;
+    height: 3vh;
+}
